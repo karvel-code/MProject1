@@ -8,7 +8,45 @@
 </head>
 <body>
 <header>
-<h1 class = "heading"> Hello World</h1>
+<h1>Opinion Form on New York Times Article</h1>
 </header>
+<div class = "form">
+    <div>
+    <p class = "font"><b>Please fill in this form as required below: </b></p>
+    </div>
+    <div>
+    <form>
+        <div class = "form1">
+        <label for = "username">User's Name:</label> <br>
+        <input type = "text" id = "username" name="username" maxlength="20"> <br>
+        </div>
+        <div class="form1">
+        <label for = "email">Email Address</label><br>
+        <input type="email" id = "email" name="email" maxlength ="20"><br>
+        </div>
+        <div class = "form1">
+        <label for = "comment">Please enter your comment in the section below:</label><br>
+        <textarea id = "comment" maxlength = "250" name = "comment" cols="55" rows="5" placeholder="Type Comment here"></textarea><br>
+        </div>
+        <div class="form1">
+        <label>What is your overall opinion about the article?</label><br>
+        <input type="radio" name="opinion" id="positive">Positive <br>
+        <input type="radio" name="opinion" id="negative">Negative  <br>
+        <input type="radio" name="opinion" id="neutral">Neutral  <br>
+        </div>
+        <div class = "form1">
+        <input type="checkbox" id="opinion2" name="opinion2" value="opinion2"> 
+        <label for="opinion2"> I want to Subscribe to the Newsletter</label><br>
+        
+        </div>
+        <div class = "button1">
+        <input type="submit" value="Send">
+        </div>
+
+
+
+    </form>
+    </div>
+</div>
 </body>
 </html>
